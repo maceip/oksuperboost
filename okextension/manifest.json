@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "OKSuperBoost",
+  "short_name": "OKSuperBoost",
+  "description": "This extension boosts your visibility on OKCupid",
+  "version": "0.32",
+
+  "permissions": [
+    "webRequest", 
+    "webRequestBlocking", 
+    "http://www.okcupid.com/*",
+    "http://www.oksuperboost.appspot.com/*"
+  ],
+
+  "background": {
+    "scripts": ["jquery.js", "oksb.js"]
+  },
+
+  "icons": { "16": "oksb_16.png",
+           "48": "oksb_48.png",
+          "128": "oksb_128.png" }
+
+}
